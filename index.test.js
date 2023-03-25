@@ -33,7 +33,7 @@ describe('[Exercise 2] trimPropertiesMutation', () => {
 describe('[Exercise 3] findLargestInteger', () => {
   test('[5] returns the largest number in an array of objects { integer: 2 }',() => {
     const input = [{integer:1},{integer:4},{integer:6},{integer:9}]
-    const expected = {integer:9}
+    const expected = 9
     const actual = utils.findLargestInteger(input)
     expect(actual).toEqual(expected)
   })
